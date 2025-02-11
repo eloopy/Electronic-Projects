@@ -1,6 +1,7 @@
 Image coverter to .h header file:
 
 http://www.rinkydinkelectronics.com/t_imageconverter565.php
+
 I recommend 170X170 or less as needed for proportion
 select output as .c file and change to .h
 

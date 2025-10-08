@@ -3,8 +3,8 @@
 #include <WiFiClientSecure.h>
 #include "millisDelay.h"
 
-const char* ssid = "Lowi64DE";
-const char* password = "X8B3DAT452V2EE";
+const char* ssid = "SSID";
+const char* password = "password";
 
 const char* googleScriptURL = "https://script.google.com/macros/s/AKfycbwuOBkH-HnpH3bPTuw72YvzKaTxZZnxaTiQJB8JBWT6YqWwn_3XzqmoEytw_tdiQR7mhA/exec";
 
@@ -94,3 +94,4 @@ void sendToGoogleSheet(String ip) {
 
   http.end();
 }
+

@@ -6,8 +6,8 @@
 
 #include "camera_pins.h"
 
-const char *ssid = "Lowi64DE";
-const char *password = "X8B3DAT452V2EE";
+const char *ssid = "SSID";
+const char *password = "PASSWORD";
 
 const int PinLed = 12; //LED lights pin
 int PinServo = 2; //Servo Motor pin
@@ -186,3 +186,4 @@ void reset_Servo_Light(){
   pinLedState = LOW;
   digitalWrite(PinLed, pinLedState);
 }
+
